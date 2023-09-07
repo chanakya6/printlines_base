@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/printlines_base/static/css/main.073c9b0a.css",
+    "main.js": "/printlines_base/static/js/main.99e747bb.js",
+    "static/js/787.e7cd5855.chunk.js": "/printlines_base/static/js/787.e7cd5855.chunk.js",
+    "static/media/logo.svg": "/printlines_base/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/printlines_base/index.html",
+    "main.073c9b0a.css.map": "/printlines_base/static/css/main.073c9b0a.css.map",
+    "main.99e747bb.js.map": "/printlines_base/static/js/main.99e747bb.js.map",
+    "787.e7cd5855.chunk.js.map": "/printlines_base/static/js/787.e7cd5855.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.99e747bb.js"
+  ]
+}
