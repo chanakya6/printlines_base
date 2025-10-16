@@ -62,7 +62,7 @@ export default function App() {
 
   const parallaxOffset = scrollY * 0.5;
   const parallaxSlow = scrollY * 0.3;
-  const parallaxFast = scrollY * 0.7;
+  // const parallaxFast = scrollY * 0.7;
 
   // Gallery data for different categories
   const galleries = {
