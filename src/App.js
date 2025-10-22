@@ -582,7 +582,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 sm:col-span-2">
+              {/* <div className="flex items-start space-x-4 sm:col-span-2">
                 <div className="bg-purple-600/20 p-3 rounded-lg">
                   <MapPin className="w-6 h-6 text-purple-400" />
                 </div>
@@ -593,7 +593,7 @@ export default function App() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-6">
