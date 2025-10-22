@@ -328,8 +328,8 @@ export default function App() {
               <span className="text-white">& Print Solutions</span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Specializing in Telugu traditional calendars, visiting cards, and
-              custom designs exported worldwide
+              Specializing in traditional calendars, visiting cards, and custom
+              designs exported worldwide
             </p>
             <button
               onClick={() => scrollToSection("contact")}
