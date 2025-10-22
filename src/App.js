@@ -69,7 +69,7 @@ export default function App() {
     calendars: [
       {
         url: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800",
-        title: "Telugu Traditional Calendar 2025",
+        title: "Traditional Calendar 2025",
       },
       {
         url: "https://images.unsplash.com/photo-1611003228941-98852ba62227?w=800",
@@ -245,7 +245,7 @@ export default function App() {
             <div className="flex items-center space-x-2">
               <Printer className="w-8 h-8 text-purple-400" />
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                Printlines
+                Print Lines
               </span>
             </div>
 
@@ -386,7 +386,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              About Printlines
+              About Print Lines
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto rounded-full" />
           </div>
@@ -404,10 +404,10 @@ export default function App() {
                 Our Story
               </h3>
               <p className="text-gray-300 leading-relaxed mb-4">
-                Printlines is a premier design and printing service specializing
-                in creating beautiful, culturally rich calendars and marketing
-                materials. We take pride in preserving Telugu traditions while
-                embracing modern design aesthetics.
+                Print Lines is a premier design and printing service
+                specializing in creating beautiful, culturally rich calendars
+                and marketing materials. We take pride in preserving Telugu
+                traditions while embracing modern design aesthetics.
               </p>
               <p className="text-gray-300 leading-relaxed">
                 With expertise in international export and a focus on the US
@@ -567,7 +567,7 @@ export default function App() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Email</h3>
-                  <p className="text-gray-400">info@printlines.com</p>
+                  <p className="text-gray-400">printlinesindia@gmail.com</p>
                 </div>
               </div>
 
@@ -577,7 +577,8 @@ export default function App() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Phone</h3>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+91 90141 44141</p>
+                  <p className="text-gray-400">+91 99121 52949</p>
                 </div>
               </div>
 
@@ -639,11 +640,11 @@ export default function App() {
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Printer className="w-6 h-6 text-purple-400" />
             <span className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Printlines
+              Print Lines
             </span>
           </div>
           <p className="text-gray-400">
-            © 2025 Printlines. All rights reserved. | Design & Print Solutions
+            © 2025 Print Lines. All rights reserved. | Design & Print Solutions
             for Global Markets
           </p>
         </div>
