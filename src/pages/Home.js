@@ -33,7 +33,7 @@ const Home = ({ setActiveSection, setMenuOpen }) => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("mousemove", handleMouseMove);
     };
-  }, []);
+  }, [setActiveSection]);
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);

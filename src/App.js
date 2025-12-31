@@ -27,7 +27,6 @@ export default function App() {
   useEffect(() => {
     setShowPopup(true);
   }, []);
-  const [scrollY, setScrollY] = useState(0);
   const [activeSection, setActiveSection] = useState("home");
   const [menuOpen, setMenuOpen] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -35,8 +34,6 @@ export default function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollY(window.scrollY);
-
       const sections = ["home", "about", "services", "contact"];
       const current = sections.find((section) => {
         const element = document.getElementById(section);
