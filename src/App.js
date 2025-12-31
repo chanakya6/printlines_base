@@ -126,7 +126,7 @@ export default function App() {
           </div>
         )}
         {/* Animated Background Elements */}
-        <Home scrollY={scrollY} />
+        <Home setActiveSection={setActiveSection} setMenuOpen={setMenuOpen} />
 
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-lg border-b border-purple-500/20">

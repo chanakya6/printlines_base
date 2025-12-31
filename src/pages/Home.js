@@ -1,10 +1,9 @@
 import { Calendar, Globe, Printer, Sparkles } from "lucide-react";
 import React, { useEffect, useState } from "react";
 
-const Home = () => {
+const Home = ({ setActiveSection, setMenuOpen }) => {
   const [scrollY, setScrollY] = useState(0);
-  const [activeSection, setActiveSection] = useState("home");
-  const [menuOpen, setMenuOpen] = useState(false);
+
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
