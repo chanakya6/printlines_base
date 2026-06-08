@@ -17,16 +17,13 @@ export default function App() {
   // New Year popup image imported from local images folder
   const FESTIVAL_IMAGE = hpyImg;
   // Popup state
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
 
   // Just close popup on interaction
   const handlePopupInteraction = () => {
     setShowPopup(false);
   };
-  // Show popup on mount/refresh
-  useEffect(() => {
-    setShowPopup(true);
-  }, []);
+  
   const [activeSection, setActiveSection] = useState("home");
   const [menuOpen, setMenuOpen] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
