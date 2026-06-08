@@ -12,7 +12,7 @@ const Footer = () => {
           </span>
         </div>
         <p className="text-gray-400">
-          © 2025 Print Lines. All rights reserved. | Design & Print Solutions
+          © {new Date().getFullYear()} Print Lines. All rights reserved. | Design & Print Solutions
           for Global Markets
         </p>
       </div>
